@@ -30,3 +30,5 @@ var walkHome = function(dogName, dogBreed) {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
   return `Walk home with ${dogName} the ${dogBreed}`
 }
+
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHome]
