@@ -32,3 +32,5 @@ var walkHome = function(dogName, dogBreed) {
 }
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHome]
+
+function exerciseDog(dogName, dogBreed, routine)
