@@ -36,7 +36,6 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHo
 function exerciseDog(routine){
   let i = 0;
   while (i < routine.length) {
-    routine();
     i++;
   }
   return routine;
