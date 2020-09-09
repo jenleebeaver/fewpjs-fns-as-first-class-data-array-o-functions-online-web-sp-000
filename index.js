@@ -33,4 +33,10 @@ var walkHome = function(dogName, dogBreed) {
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHome]
 
-function exerciseDog(dogName, dogBreed, routine)
+function exerciseDog(dogName, dogBreed, routine){
+  let i = 0;
+  while (i < routine.length) {
+    routine(dogName, dogBreed);
+    i++;
+  }
+}
