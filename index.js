@@ -37,4 +37,4 @@ function exerciseDog(dog, breed) {
   return routine.map(fn => fn(dog, breed))
 }
 
-exerciseDog(routine)
+
