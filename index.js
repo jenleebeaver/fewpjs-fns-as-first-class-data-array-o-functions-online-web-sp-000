@@ -41,3 +41,5 @@ function exerciseDog(dogName, dogBreed, routine){
   }
   return routine;
 }
+
+exerciseDog(routine)
