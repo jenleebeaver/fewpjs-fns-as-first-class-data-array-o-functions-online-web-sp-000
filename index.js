@@ -33,12 +33,8 @@ var walkHome = function(dogName, dogBreed) {
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHome]
 
-function exerciseDog(routine){
-  let i = 0;
-  while (i < routine.length) {
-    i++;
-  }
-  return routine;
+function exerciseDog(dog, breed) {
+  return routine.map(fn => fn(dog, breed))
 }
 
 exerciseDog(routine)
