@@ -33,6 +33,7 @@ var walkHome = function(dogName, dogBreed) {
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHome]
 
+// loops through routine (our array of functions)
 function exerciseDog(dog, breed) {
   return routine.map(fn => fn(dog, breed))
 }
