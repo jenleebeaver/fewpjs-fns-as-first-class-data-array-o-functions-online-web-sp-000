@@ -36,5 +36,3 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, unleashDog, walkHo
 function exerciseDog(dog, breed) {
   return routine.map(fn => fn(dog, breed))
 }
-
-
