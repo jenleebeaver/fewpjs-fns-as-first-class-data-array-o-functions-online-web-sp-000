@@ -39,4 +39,5 @@ function exerciseDog(dogName, dogBreed, routine){
     routine(dogName, dogBreed);
     i++;
   }
+  return routine;
 }
