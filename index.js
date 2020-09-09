@@ -23,5 +23,5 @@ var throwFrisbee = function(dogName, dogBreed) {
 
 var unleashDog = function(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
-  return `Throw the frisbee for ${dogName} the ${dogBreed}`
+  return `Unleash ${dogName} the ${dogBreed}`
 }
