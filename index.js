@@ -20,3 +20,10 @@ var throwFrisbee = function(dogName, dogBreed) {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
+
+var throwFrisbee = function(dogName, dogBreed) {
+  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  return `Throw the frisbee for ${dogName} the ${dogBreed}`
+}
+
+
